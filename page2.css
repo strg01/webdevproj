@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "DM Sans";
+}
+
+#navbar {
+  width: 100%;
+  height: 5vw;
+  position: fixed;
+  background-color: white;
+  z-index: 2;
+}
+#navbar ul {
+  text-align: right;
+  padding: 0 4vw 0 0;
+}
+#navbar ul li {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: right;
+  padding: 1.5vw 2vw 0 0;
+}
+#navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5vw;
+}
+#navbar ul li a:hover {
+  position: relative;
+  top: -0.5vw;
+}
+#navbar ul li button {
+  font-size: 1.5vw;
+  padding: 0.2vw 0.8vw 0.2vw 0.8vw;
+  background-color: #322F27;
+  color: white;
+  border-radius: 0.5vw;
+  border: none;
+}
+#navbar ul li button:hover {
+  cursor: pointer;
+  transition: 700ms;
+  position: relative;
+  top: 0.2vw;
+}
+#navbar #logo {
+  width: 10vw;
+  height: 4vw;
+  position: fixed;
+  top: 0.5vw;
+  left: 7vw;
+  vertical-align: middle;
+}
+#navbar #logo img {
+  width: 100%;
+  height: 100%;
+}
+
+#sign {
+  width: 100%;
+  height: 45vw;
+  background-image: url("https://www.wallpaperflare.com/static/636/109/276/cake-cherry-chocolate-sweet-wallpaper.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sign #form {
+  width: 70%;
+  height: 35vw;
+  margin: 5vw 0 0 0;
+  background-color: rgba(50, 47, 39, 0.7);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#sign #form h1 {
+  text-align: center;
+  margin: 0 0 3vw 0;
+  font-size: 4vw;
+  color: white;
+  font-family: "Satisfy";
+  text-shadow: 0.2vw 0.2vw 0.5vw black;
+}
+#sign #form #details {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+}
+#sign #form #details label {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5vw;
+  font-family: "Manrope";
+  color: white;
+}
+#sign #form #details label input {
+  width: 99%;
+  height: auto;
+  font-size: 2vw;
+}
+#sign #form #details button {
+  margin: 0.5vw;
+  font-size: 1.5vw;
+  padding: 0.2vw 0.8vw 0.2vw 0.8vw;
+  background-color: #F7EAE4;
+  color: black;
+  font-family: "Manrope";
+  border-radius: 0.5vw;
+  border: none;
+}
+#sign #form #details button:hover {
+  cursor: pointer;
+  transition: 700ms;
+  position: relative;
+  top: 0.2vw;
+}/*# sourceMappingURL=page2.css.map */
